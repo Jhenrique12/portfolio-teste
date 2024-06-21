@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Portfólio</title> 
+</head>
+
+<body>
+  <main>
+
+    <section id="home">
+      <!-- Navbar -->
+      <header>
+        <div class="logo"><a href="index.html"><p>PORTFÓLIO</p></a></div>
+        <ul class="nav">
+          <li><a href="#about-me" class="active">Sobre mim</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </header>
+      
+      <!-- Tela de apresentação -->
+      <div class="banner">
+        <div class="banner-content">
+          <h1>Olá, eu sou o João</h1>
+          <p>Um programador web apaixonado por tecnologia e inovação</p>
+        </div>
+        <div>
+          <a href="#about-me"><img class="arrow"
+            src="./assets/arrowDown.gif"
+            alt="imagem seta para baixo"
+             /></a>    
+        </div>
+      </div>
+    </section>
+
+    <!-- Tela sobre mim -->
+    <section id="about-me">
+      <div class="section-title">
+        <h2>Sobre mim</h2>  
+        <p>Olá, como viu, meu nome é João e tenho 21 anos. Passe o mouse sobre os ícones e me conheça</p>
+      </div>
+
+      <div class="about-me-content">
+        <div class="about-me-el">
+          <img src="./assets/university.svg" alt="Graduation">
+          <h3>Sou técnico em Automação Industrial e estou me formando em Engenharia de Software</h3>
+        </div>
+
+        <div class="about-me-el" >
+          <img src="./assets/language-1.svg " alt="Language">
+          <h3>Possuo inglês avançado e alemão básico</h3>
+        </div>
+
+        <div class="about-me-el">
+          <img src="./assets/hobby.svg" alt="Hobbys">
+          <h3>Gosto de programar como hobby e ir ao cinema</h3>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Tela de skills -->
+    <section id="skills">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>Estas são as tecnologias que eu uso para criar aplicações web</p>
+      </div>
+
+      <div class="skills-content">
+        <div class="skill">
+          <img src="./assets/HTML.svg" alt="HTML">
+          <h3>HTML</h3>
+        </div>
+
+        <div class="skill">
+          <img src="./assets/CSS.svg" alt="CSS">
+          <h3>CSS</h3>
+        </div>
+
+        <div class="skill">
+          <img src="./assets/JAVASCRIPT.svg" alt="JavaScript">
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill">
+          <img src="./assets/sass.svg" alt="Sass">
+          <h3>Sass</h3>
+        </div>
+
+        <div class="skill">
+          <img src="./assets/bootstrap.svg" alt="Bootstrap">
+          <h3>Bootstrap</h3>
+        </div>
+      </div>
+    </section>
+
+  <!-- Tela de projetos -->
+    <section id="projects">
+      <div class="section-title">
+        <h2>Projetos</h2>
+        <p>Estes são os meus principais projetos atualmente</p>
+      </div>
+
+      <div class="projects-content">
+        <div class="project">
+          <img src="./assets/projeto1.png" alt="Imagem do Projeto 1 de uma calculadora">
+          <div class="project-info">
+            <h4>Calc.js</h4>
+            <p>Calculadora feita com JavaScript</p>
+            <a href="https://calcjs-jhenrique12.netlify.app/" target="_blank">Ver projeto</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./assets/projeto2.png" alt="Imagem do Projeto 2 de um jogo da velha">
+          <div class="project-info">
+            <h4>Tic Tac Toe</h4>
+            <p>Jogo da velha feito com JavaScript</p>
+            <a href="https://tic-tac-toe-jhenrique12.netlify.app/" target="_blank">Ver projeto</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./assets/projeto3.png" alt="Imagem do Projeto 3 de um site de esportes">
+          <div class="project-info">
+            <h4>OneBitSports</h4>
+            <p>Uma site de esportes utilizando flexbox e bootstrap</p>
+            <a href="https://onebitsports-jhenrique12.netlify.app/" target="_blank">Ver projeto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tela de contatos -->
+    <section id="contact">
+      <div class="section-title">
+        <h2>Contato</h2>
+        <p>Se você quiser entrar em contato comigo, você pode usar o formulário abaixo ou me seguir nas redes sociais</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form">
+          <h3>Envie uma mensagem</h3>
+          <p>Preencha os campos abaixo e clique em enviar</p>
+
+          <!-- Formulário -->
+          <form action="mailto:jonhenrique007@gmail.com" method="post">
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <input type="text" name="subject" placeholder="Assunto" required>
+            <textarea style="resize: none" name="message" placeholder="Mensagem" rows="6" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <!-- Redes sociais -->
+        <div class="social">
+          <h3>Siga-me nas redes sociais</h3>
+          <p>Você pode me encontrar nos seguintes links</p>
+          <ul class="social-icons">
+            <a href="https://wa.me/5598999935887" target="_blank">
+              <img src="./assets/whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-henrique-vieira/" target="_blank">
+              <img src="./assets/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Jhenrique12" target="_blank">
+              <img src="./assets/github.png" alt="Github"></a>
+          </ul>
+        </div>  
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>&copy 2023 João Vieira. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
