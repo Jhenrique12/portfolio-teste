@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* Estilos gerais */
+=======
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +15,11 @@ html {
 body {
   font-family: Arial, sans-serif;
   color: #fff;
+<<<<<<< HEAD
+=======
+  
+
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 }
 
 a {
@@ -19,8 +27,11 @@ a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 
 /* Estilos tela principal e header*/
+=======
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 #home {
   background-image: url("./assets/images/home.jpg");
   background-size: cover;
@@ -31,6 +42,10 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 10px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 }
 
 .logo {
@@ -39,8 +54,11 @@ header {
   letter-spacing: 5px;
 }
 
+<<<<<<< HEAD
 /* Estilos navbar */
 
+=======
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 .nav {
   display: flex;
   list-style: none;
@@ -64,7 +82,10 @@ header {
   border-color: #fff;
 }
 
+<<<<<<< HEAD
 /* Estilos tela principal */
+=======
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 .banner {
   height: 80vh;
   display: flex;
@@ -100,9 +121,14 @@ header {
   width: 130px
 }
 
+<<<<<<< HEAD
 /* Estilos gerais para as seções */
 section {
   padding: 120px ;
+=======
+section {
+  padding: 40px ;
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
   height: 100vh;
 }
 
@@ -117,6 +143,7 @@ section {
 }
 
 .section-title p {
+<<<<<<< HEAD
   font-size: 1.5rem;
 }
 
@@ -174,15 +201,28 @@ section {
 #skills {
   background-image: url("./assets/images/skills.jpg");
   background-size: cover;
+=======
+  font-size: 20px;
+}
+
+#skills {
+  background-image: url("./assets/images/skills.jpg");
+  background-size: cover;
+  height: auto;
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
  }
 
 .skills-content {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
+<<<<<<< HEAD
   margin: 0 auto;
   padding-top: 20px;
   max-width: 70%;
+=======
+  padding-top: 20px;
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 }
 
 .skill {
@@ -212,7 +252,11 @@ section {
 .skill:hover h3 {
   visibility:visible;
   font-size: 30px;
+<<<<<<< HEAD
   margin-top: 30px;
+=======
+  margin-top: 10px;
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 }
 .skill:hover img {
   transition: 0.9s;
@@ -220,16 +264,30 @@ section {
   height: 70px;
 }
 
+<<<<<<< HEAD
 /* Estilos tela projetos */
 #projects {
   background-image: url("./assets/images/projects.jpg");
   background-size: cover;
+=======
+
+
+#projects {
+  background-image: url("./assets/images/projects.jpg");
+  background-size: cover;
+  height: auto;
+  
+  
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
  }
 
 .projects-content {
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   margin-top:200px ;
+=======
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
   justify-content: center;
 }
 
@@ -285,9 +343,12 @@ section {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
 
 
 /* Estilos tela de contato e formulário */
+=======
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
 #contact {
   background-image: url("./assets/images/dog.gif");
   background-size: cover;
@@ -341,11 +402,18 @@ section {
   background-color: #ccc;
 }
 
+<<<<<<< HEAD
 /* Estilos tela de redes sociais */
 .social {
   width: auto;
   margin: 10px;
   background-color: #00000070;
+=======
+.social {
+  width: auto;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.438);
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
   border-radius: 10px;
   padding: 20px;
   display: flex;
@@ -375,7 +443,11 @@ section {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+<<<<<<< HEAD
   background-color: #00000070;
+=======
+  background-color: rgba(0, 0, 0, 0.438);
+>>>>>>> 8d4c32091d5bddecc9c0ad4147856694d650d7ad
   display: flex;
   align-items: center;
   justify-content: center;
